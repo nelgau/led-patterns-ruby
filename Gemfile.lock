@@ -1,0 +1,33 @@
+GIT
+  remote: https://github.com/JamesHarrison/faderuby
+  revision: 9a99932872abd3136bfe4b2ecdbf75d7ce6f4ed7
+  specs:
+    faderuby (0.0.2)
+
+GIT
+  remote: https://github.com/sarahemm/ruby-artnet
+  revision: 4ca709ec6094e6fc5232ec0067de91e433c2b555
+  specs:
+    ruby-artnet (0.0.3)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    arcenciel (0.0.1)
+      colored (>= 1.2.0)
+      osc-ruby (~> 1.1.1)
+    colored (1.2)
+    osc-ruby (1.1.1)
+    rgb (0.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  arcenciel
+  faderuby (= 0.0.2)!
+  rgb
+  ruby-artnet!
+
+BUNDLED WITH
+   1.16.1
